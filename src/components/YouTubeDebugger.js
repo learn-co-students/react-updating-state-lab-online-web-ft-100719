@@ -17,7 +17,9 @@ class YouTubeDebugger extends Component {
 
   changeBitRate = () => {
     this.setState({
-      settings: { ...this.state.settings, bitrate: 12 }
+      settings: { 
+        ...this.state.settings, 
+        bitrate: 12 }
     })
   }
 
